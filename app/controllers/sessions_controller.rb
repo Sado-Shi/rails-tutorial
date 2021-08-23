@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
     # もしuserが有効かつ送信されたユーザーのパスワードが一致していたら
     if user && user.authenticate(params[:session][:password])
       log_in user
-      redirect_to user
+      redirect_back_or user
     else
       flash.now[:danger] = 'メールアドレスかパスワードが無効です'
       render 'new'

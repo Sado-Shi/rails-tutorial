@@ -1,17 +1,13 @@
 {
-"files.associations": {
-  "*.erb": "erb"
-},
-
-"[ruby]": {
-  "editor.formatOnSave": true
-},
-
   "beautify.language": {
     "html": [
       "htm",
       "html",
       "erb"
     ]
+  },
+
+  "[ruby]": {
+    "editor.formatOnSave": true
   },
 }
