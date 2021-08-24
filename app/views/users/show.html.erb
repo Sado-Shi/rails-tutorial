@@ -1,4 +1,4 @@
-<% provide(:title, @user.name) %>
+<% provide(:title, "ユーザー詳細") %>
 <div class="row">
   <aside class="col-md-4">
     <section class="user_info">
@@ -6,6 +6,9 @@
         <%= gravatar_for @user %>
         <%= @user.name %>
       </h1>
+      <ul class="">
+        <li><%= link_to "ユーザー情報編集", edit_user_path %></li>
+      </ul>
     </section>
   </aside>
 </div>
