@@ -7,7 +7,6 @@ Ruby on Rails チュートリアルを基にCRUD機能を実装しました。
 
 -   **ユーザーの新規作成・表示・編集・削除**（CRUD 処理）
 -   **ログアウト&ログイン機能**
--   ****
 
 ### ●ログイン</br>
 ![login](/readmeFolder/login.gif)
